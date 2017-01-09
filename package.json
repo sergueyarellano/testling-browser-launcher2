@@ -1,10 +1,10 @@
 {
     "name" : "testling2",
-    "description" : "write tests for browser code",
+    "description" : "write tests for browser code. bcmd, x option modified for browser-launcher2",
     "version" : "1.7.2",
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/substack/testling.git"
+        "url" : "git://github.com/sergueyarellano/testling2.git"
     },
     "main" : "index.js",
     "browserify" : "browser.js",
