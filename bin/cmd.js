@@ -243,6 +243,9 @@ function ready () {
                     if ( err ) {
                         return console.error( err );
                     }
+                    process.on( 'exit', function( code ) {
+                        instance.stop()
+                    });
                 });
             });
         });
